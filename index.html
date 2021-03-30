@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Feedback</title>
+	
+
+<!--css file-->
+	<link rel="stylesheet" type="text/css" href="style2.css"></li>
+	<script type="text/javascript" src="j1.js"></script>
+</head>
+<body>
+	<header>
+           <div>
+			<p id="a1"> Feedback </p>
+				<p id="a2"> Your thoughts Matter</p>
+		   </div>
+</header>
+<div class="main">
+	<section>
+		<form>
+			<table>
+				<tr>
+					<td> First Name: &nbsp;</td>
+					<td><input type="text" name="first" id="first" maxlength="40" required></td>
+				</tr>
+				<tr>
+					<td> Middle Name: &nbsp;</td>
+					<td><input type="text" name="middle" id="middle"></td>
+				</tr> 
+				<tr>
+					<td> Last Name: &nbsp;</td>
+					<td><input type="text" name="last" id="last" maxlength="40" required></td>
+				</tr>
+				<tr>
+					<td> Suggestions: &nbsp;</td>
+					<td><textarea rows="3" cols="=60" name="Suggestions" id="suggestions" placeholder="Your Suggestions" required></textarea></td>
+				</tr>
+				<tr>
+					<td> Gender &nbsp;</td>
+					<td><input type="radio" name="Gender" value="Male" id="m"> Male</td>
+					<td><input type="radio" name="Gender" value="Female" id="f"> Female</td>
+				</tr>
+				<tr><td> <button type="button"  onclick="printfunc()" id="submit">+</button></td>
+                   <td> <input type="reset"  value="-" onclick="clear()" id="reset"></td></tr>
+
+                    
+			</table>
+			</form>
+
+</section>
+
+		
+		<section class="right">
+			message is <span id="pr"></span>
+
+
+</section>
+
+
+
+		
+<footer class="footer">
+	<p>Design and Developed  by @Girjesh Garg</p>
+	
+</footer>
+</main>
+</body>
+</html>
